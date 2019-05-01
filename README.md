@@ -1,0 +1,2 @@
+# sktTheme
+Wordpress Theme
