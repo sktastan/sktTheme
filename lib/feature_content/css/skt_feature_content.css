@@ -1,0 +1,237 @@
+.skt_head_line{    
+    padding: 10px;
+}
+
+.skt_txt{     
+     /*width: 171px;*/
+     padding: 10px 0;
+     height: auto; 
+     /*order:1px solid black;*/
+}
+
+.skt_head_line p:nth-child(1){
+    /*color: #000;*/
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;    
+}
+
+.skt_head_line p:nth-child(1) span{
+    color: lightblue;      
+}
+
+.skt_head_line p:nth-child(2){
+    text-align: l;eft
+}
+
+.skt_head_line hr{
+    margin:6px 0; 
+    border:none; 
+    width:100px; 
+    height:4px; 
+    background-color:lightblue
+}
+
+
+
+.feature_content{
+    width: 100%;
+}
+
+/* --- circle content 1 all color section start --- */
+/* top-center headline color section start */
+.skt_head_line_1 p:nth-child(1){
+    color: #fff;
+}
+
+.skt_head_line_1 p:nth-child(1) span{
+    color: #15c5c0;      
+}
+
+.skt_head_line_1 p:nth-child(2){
+    color: #fff;
+}
+/* top-center headline color section finish */
+
+/* circle content color section start */
+.skt_circle_content_1_ico a{
+    /*border: 6px solid #fff;  */
+    background-color: #15c5c0;
+    color: #fff;   
+}
+
+/* --- top-center headline section start ---*/
+.skt_head_line_1{        
+    width: 100%;
+    height: auto;    
+    padding: 0 20px;
+    /*border:4px solid #15c5c0;*/
+}
+
+.skt_separator{
+     position: relative;
+     margin: 0 auto;
+     width: 51px;
+     padding: 10px 0 10px 0;
+     height: auto; 
+     /*border:1px solid black;*/
+}
+
+.skt_separator ul{    
+    list-style:none;
+}
+
+.skt_separator ul li{   
+    float: left;  
+    width: auto;
+    height: auto; 
+    margin-right: 5px;   
+    border-radius:50px ;
+    padding: 6px ; 
+    background-color:#15c5c0;
+}
+
+.skt_separator ul li:nth-child(2){    
+    background-color:#999;
+}
+
+.skt_head_line_1 p{
+   padding-bottom: 10px;   
+}
+
+.skt_head_line_1 p:nth-child(1){    
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.skt_head_line_1 p:nth-child(2){
+    font-size: 24px;
+    text-align: center;
+}
+/* --- top-center headline section finish ---*/
+
+/* --- circle content section start --- */
+.skt_circle_content_1{    
+    width: 100%;
+    height: auto;
+    /*border:4px solid #15c5c0;*/
+}
+
+.skt_circle_content_1_ico{    
+    width: auto;
+    height: auto; 
+    padding: 20px 0 0 0;   
+    text-align: center;    
+    border-radius:3px ;
+    font-size: 36px;  
+}
+
+.skt_circle_content_1_ico a{
+    /*border-radius:50%;*/
+    padding: 15px 20px;    
+    text-decoration: none; 
+}
+
+.skt_circle_content_1_txt p:nth-child(1){   
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+.skt_circle_content_1_txt p:nth-child(2){
+    /*text-align: justify;*/
+}
+
+.skt_circle_content_1_txt p:nth-child(3){
+    /*padding-top: 20px;*/
+    margin-top: 40px;
+    text-align: center;
+}
+
+.skt_circle_content_1_txt p:nth-child(3) a{ 
+    border: 1px solid #000; 
+    padding: 10px 30px;
+    /*margin: 40px 0;*/
+    text-decoration: none;
+}
+
+.skt_circle_content_1_txt p:nth-child(3) a:hover{
+    text-decoration: underline;
+    color: #aaa 
+}
+
+@media screen and (max-width: 1170px){
+    .skt_page_width{        
+        width: 100%;
+    }
+}
+/* --- circle content section finish --- */
+
+/* --- grid section start --- */
+.spacer{position: relative;
+
+  padding: 20px;
+}
+
+.skt_row{
+  width: 100%;
+  height: auto;
+}
+
+.skt_col_3{
+  width: 31%;
+  height: auto;
+  min-height: 60px;
+  float: left; 
+  padding: 20px 20px 40px 20px;
+  margin: 0 10px;
+  border:1px solid #f3f3f3
+}
+
+.skt_col_6,.skt_col_fw6{
+  width: 50%;
+  height: auto;
+  min-height: 60px;
+  float: left;  
+  /*border:1px solid #fff*/
+}
+
+.skt_col_fw3{
+  width: 40%;
+  height: auto;
+  min-height: 60px;
+  float: left; 
+  /*border:1px solid #999*/
+}
+
+.skt_col_fw9{
+  width: 60%;
+  height: auto;
+  min-height: 60px;
+  float: left; 
+  padding: 0 0 0 20px;  
+  /*border:1px solid #fff*/
+}
+
+.skt_col_6:nth-child(1), .skt_col_fw6:nth-child(1){  
+  padding:20px 10px 20px 20px;
+}
+
+.skt_col_6:nth-child(2), .skt_col_fw6:nth-child(2){  
+  padding:20px 20px 20px 10px;
+}
+
+@media screen and (max-width:640px){   
+  .skt_col_3{
+    width: 100%;
+    padding: 20px !important;
+  }
+
+.skt_col_6{
+    width: 100%;
+    padding: 20px !important;
+  }
+}
+/* --- grid section finish --- */

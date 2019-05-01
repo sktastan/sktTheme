@@ -1,0 +1,265 @@
+a.story-btn {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+	/*border: 2px solid#fff;*/
+	padding:1.1em 1.8em;
+	border-radius: 20px;
+	font-weight:600;
+	-webkit-appearance: none;
+	font-family: 'Lato', sans-serif;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	text-transform: uppercase;
+	background:none;
+}
+
+a.story-btn:hover{
+	/*border: 2px dashed #000;*/
+	color:#000;
+	background: #fff;
+}
+
+a.text-title {
+		text-decoration: none !important;
+		color: #fff !important;
+		font-size: 12px;
+}
+
+.portfolio_text{
+	position:absolute;
+	background-color:rgba(120,0,110,0.2);
+	color:#fff;	
+	width:100%;
+	height:auto;
+	top:50%;
+	left: 50%;
+	margin-top: 160px;
+	margin-left: -50%;
+
+}
+
+.portfolio_text > p{
+	position:relative;	
+	margin:0 auto;
+	width:700px;
+	height:auto;
+}
+
+#filters {
+	/*background-color: #000;*/
+	/*display: inline-block;*/
+	width: 100%;
+	/*margin: 0px auto;	*/
+	padding:10px 0;
+	list-style:none;
+	/*border: 10px solid #000;*/
+}
+
+	#filters li {
+		float:left;
+		padding: 0px;
+	}	
+	
+	#filters li span {
+		display: block;
+		padding:10px 30px;		
+		text-decoration:none;
+		color:#fff;
+		cursor: pointer;
+	}
+
+	#filters li span:hover {
+		color: #fff;
+		background-color: #930036;
+	}
+	
+	#filters li span.active {
+		/*background: #e95a44;*/
+		background-color: #930036; 
+		color:#fff;
+	}
+
+/*#portfoliolist {
+	margin-bottom: 60px;
+}*/
+
+
+#portfoliolist .portfolio {
+	
+	width:20%;
+	/*margin: 0px;*/
+	/*margin:1%;*/
+	display:none;
+	float:left;
+	overflow:hidden;
+	/*border: 10px solid #000;*/
+	
+}
+
+	.portfolio-wrapper {
+		overflow:hidden;
+		position: relative !important;
+		/*background: #666;*/
+		/*background-color: rgba(147,15,26,1);*/
+		cursor:pointer;
+	}
+
+	.portfolio img {
+		max-width:100%;
+		width: 100%;
+		position: relative;
+		vertical-align: middle;
+	}
+	
+	.portfolio .label {
+		position: absolute;
+		width: 100%;
+		height:40px;
+		bottom:-42px;
+	}
+
+		.portfolio .label-bg {
+			/*background: #e95a44;*/
+			background-color: #930036;
+			width: 100%;
+			height:100%;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+	
+		.portfolio .label-text {
+			color:#fff;
+			position: relative;
+			z-index:500;
+			padding:5px 8px;
+		}
+			
+			.portfolio .text-category {
+				display:block;
+				font-size:9px;
+			}
+	
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.portfolio_container {
+		/*width: 768px;*/
+		width: 100%;  
+	}
+}
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	.portfolio_container { 
+		/*width: 95%;*/ 
+		width: 100%; 
+	}
+	
+	#portfoliolist .portfolio {
+		width:48%;
+		margin:1%;
+		/*width: 100%;*/ 
+	}		
+
+	#ads {
+		display:none;
+	}
+
+	#filters {	
+		width: 100%;	
+	}
+	
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.portfolio_container {
+		/*width: 70%;*/
+		width: 100%;
+	}
+	
+	#ads {
+		display:none;
+	}
+	
+}
+
+/* #Clearing */
+
+/* Self Clearing Goodness */
+.portfolio_container:after { 
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; 
+}
+
+.row:after,
+.clearfix:after {
+  clear: both; 
+}
+
+.row,
+.clearfix{
+  	zoom: 1;	
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/*portfolio content section*/
+.portfolio_content{
+	width: 100;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2% 5%;
+	/*background-color: #fff;*/
+}
+
+.portfolio_content > h1{
+	font-size: 40px;
+	/*line-height: 50px;*/
+	margin: 0;	
+	font-weight: 300;
+	color: #707a8d;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+.portfolio_content > h1 span{
+	font-weight: 700;
+}
+
+.portfolio_content > h2{
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	/*padding: 15px 0 5px 0;*/
+	color: #4d525d;
+	/*font-family: Cambria, Georgia, serif;
+	font-style: italic;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);*/
+}

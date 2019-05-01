@@ -1,0 +1,25 @@
+#go_top{
+  position:fixed; 
+  display: none;  
+  text-align: right;
+  text-shadow: 1px 1px 20px #fff;
+  padding: 10px 20px; 
+  float: right;
+  right: 40px;
+  bottom: 40px;   
+  border-radius: 100%; 
+  border: 2px solid #999;
+  box-shadow: 0px 0px 10px #000; 
+  z-index: 10000;   
+}
+
+#go_top:hover{ 
+  color: #fff;
+  box-shadow: 1px 1px 20px #000;   
+  text-shadow: 5px 5px 20px #fff; 
+  border: 2px solid #aaa;
+}
+
+#go_top:hover{
+  cursor: pointer; 
+}
